@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="same-origin"><title>Club editor · Strange Wolves</title><link rel="stylesheet" href="./editor.css"></head><body>
+<header><a href="/" class="brand">STRANGE WOLVES <span>Club editor</span></a><a href="/" target="_blank" rel="noreferrer">View website</a><button id="logout" hidden>Sign out</button></header>
+<main>
+<section id="login" class="login card"><p class="eyebrow">Your club. Your content.</p><h1>Keep the website up to date.</h1><p>Change photos and words, check your preview, then publish when you’re happy. The page layout stays protected.</p><button id="signin" class="primary">Sign in to edit</button><p class="muted">Access is by invitation. Use the account set up for you by the club.</p></section>
+<p id="status" role="status" aria-live="polite"></p>
+<div id="workspace" hidden>
+<div class="intro"><div><p class="eyebrow">Website content</p><h1>What would you like to change?</h1></div><span id="saved-state" class="badge">Draft</span></div>
+<div class="editor-layout"><nav id="sections" aria-label="Website sections"></nav><section class="card fields"><h2 id="section-title"></h2><p class="muted">Changes stay in your draft until you publish.</p><form id="fields"></form></section></div>
+<div class="actions"><button id="history">Earlier versions</button><div><button id="save">Save draft</button><button id="preview">Preview</button><button id="publish" class="primary">Publish changes</button></div></div>
+</div>
+</main>
+<dialog id="preview-dialog"><div class="dialog-head"><strong>Draft preview</strong><div><button id="phone">Phone</button><button id="desktop">Desktop</button><button data-close="preview-dialog">Close</button></div></div><p class="muted preview-note">Only you can see this preview. Links and menus work as they do on the website.</p><div class="preview-stage"><iframe id="preview-frame" title="Website draft preview"></iframe></div></dialog>
+<dialog id="history-dialog"><div class="dialog-head"><h2>Earlier versions</h2><button data-close="history-dialog">Close</button></div><p>Load a version into your draft, preview it, then publish to restore it.</p><div id="versions"></div></dialog>
+<dialog id="publish-dialog"><h2>Ready to update the website?</h2><p>Your saved draft will replace the current words and photos. The previous published version will be kept in Earlier versions.</p><div class="confirm-actions"><button data-close="publish-dialog">Keep editing</button><button id="confirm-publish" class="primary">Publish now</button></div></dialog>
+<script src="./editor.js" defer></script></body></html>

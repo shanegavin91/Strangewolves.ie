@@ -1,0 +1,522 @@
+{
+  "fields": [
+    {
+      "id": "opening",
+      "group": "Opening",
+      "label": "Opening paragraph",
+      "selector": ".hero-deck",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "hero_photo",
+      "group": "Opening",
+      "label": "Main photograph",
+      "selector": ".hero-media img",
+      "kind": "image",
+      "max": 1600
+    },
+    {
+      "id": "hero_photo_alt",
+      "group": "Opening",
+      "label": "Main photograph \u2014 image description",
+      "selector": ".hero-media img",
+      "kind": "alt",
+      "max": 200
+    },
+    {
+      "id": "course_title",
+      "group": "Beginners",
+      "label": "Course heading",
+      "selector": "#start-title",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "course_photo",
+      "group": "Beginners",
+      "label": "Course poster",
+      "selector": ".course-poster img",
+      "kind": "image",
+      "max": 1600
+    },
+    {
+      "id": "course_photo_alt",
+      "group": "Beginners",
+      "label": "Course poster \u2014 image description",
+      "selector": ".course-poster img",
+      "kind": "alt",
+      "max": 200
+    },
+    {
+      "id": "course_link",
+      "group": "Beginners",
+      "label": "Opening course link",
+      "selector": ".hero-course-link",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "experienced_intro",
+      "group": "Classes",
+      "label": "Who the regular classes suit",
+      "selector": "#class-panel-first p:nth-of-type(2)",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "experienced_rounds",
+      "group": "Classes",
+      "label": "What to expect",
+      "selector": "#class-panel-first p:nth-of-type(3)",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "coach_1_name",
+      "group": "Coaches",
+      "label": "Vinny \u2014 name",
+      "selector": ".coach-card:nth-of-type(1) h3",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "coach_1_role",
+      "group": "Coaches",
+      "label": "Vinny \u2014 role",
+      "selector": ".coach-card:nth-of-type(1) .coach-role",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "coach_1_bio",
+      "group": "Coaches",
+      "label": "Vinny \u2014 introduction",
+      "selector": ".coach-card:nth-of-type(1) p:nth-of-type(2)",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "coach_2_name",
+      "group": "Coaches",
+      "label": "Marcus \u2014 name",
+      "selector": ".coach-card:nth-of-type(2) h3",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "coach_2_role",
+      "group": "Coaches",
+      "label": "Marcus \u2014 role",
+      "selector": ".coach-card:nth-of-type(2) .coach-role",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "coach_2_bio",
+      "group": "Coaches",
+      "label": "Marcus \u2014 introduction",
+      "selector": ".coach-card:nth-of-type(2) p:nth-of-type(2)",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "coach_3_name",
+      "group": "Coaches",
+      "label": "John \u2014 name",
+      "selector": ".coach-card:nth-of-type(3) h3",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "coach_3_role",
+      "group": "Coaches",
+      "label": "John \u2014 role",
+      "selector": ".coach-card:nth-of-type(3) .coach-role",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "coach_3_bio",
+      "group": "Coaches",
+      "label": "John \u2014 introduction",
+      "selector": ".coach-card:nth-of-type(3) p:nth-of-type(2)",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "ethos_intro",
+      "group": "Club ethos",
+      "label": "Club introduction",
+      "selector": ".manifesto-copy .large-copy",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "ethos_training",
+      "group": "Club ethos",
+      "label": "How we train",
+      "selector": ".coaches-copy p:nth-of-type(1)",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "ethos_trust",
+      "group": "Club ethos",
+      "label": "Trust and training partners",
+      "selector": ".coaches-copy p:nth-of-type(2)",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "ethos_photo",
+      "group": "Club ethos",
+      "label": "Club photograph",
+      "selector": ".documentary-photo img",
+      "kind": "image",
+      "max": 1600
+    },
+    {
+      "id": "ethos_photo_alt",
+      "group": "Club ethos",
+      "label": "Club photograph \u2014 image description",
+      "selector": ".documentary-photo img",
+      "kind": "alt",
+      "max": 200
+    },
+    {
+      "id": "grading_intro",
+      "group": "Club ethos",
+      "label": "The Wolves system",
+      "selector": ".standard-heading p:nth-of-type(2)",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "bronze_description",
+      "group": "Club ethos",
+      "label": "Bronze Wolves description",
+      "selector": ".bronze p",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "silver_description",
+      "group": "Club ethos",
+      "label": "Silver Wolves description",
+      "selector": ".silver p",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "gold_description",
+      "group": "Club ethos",
+      "label": "Gold Wolves description",
+      "selector": ".gold p",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "podcast_intro",
+      "group": "Podcast",
+      "label": "Podcast introduction",
+      "selector": ".podcast-copy .large-copy",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "podcast_photo",
+      "group": "Podcast",
+      "label": "Podcast artwork",
+      "selector": ".podcast-art img",
+      "kind": "image",
+      "max": 1600
+    },
+    {
+      "id": "podcast_photo_alt",
+      "group": "Podcast",
+      "label": "Podcast artwork \u2014 image description",
+      "selector": ".podcast-art img",
+      "kind": "alt",
+      "max": 200
+    },
+    {
+      "id": "gallery_intro",
+      "group": "Gallery",
+      "label": "Gallery introduction",
+      "selector": ".pack-heading p:nth-of-type(2)",
+      "kind": "text",
+      "max": 1600
+    },
+    {
+      "id": "gallery_1_photo",
+      "group": "Gallery",
+      "label": "Photo 1",
+      "selector": ".wall-photo:nth-of-type(1) img",
+      "kind": "image",
+      "max": 1600
+    },
+    {
+      "id": "gallery_1_photo_alt",
+      "group": "Gallery",
+      "label": "Photo 1 \u2014 image description",
+      "selector": ".wall-photo:nth-of-type(1) img",
+      "kind": "alt",
+      "max": 200
+    },
+    {
+      "id": "gallery_1_caption",
+      "group": "Gallery",
+      "label": "Photo 1 caption",
+      "selector": ".wall-photo:nth-of-type(1) span",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "gallery_2_photo",
+      "group": "Gallery",
+      "label": "Photo 2",
+      "selector": ".wall-photo:nth-of-type(2) img",
+      "kind": "image",
+      "max": 1600
+    },
+    {
+      "id": "gallery_2_photo_alt",
+      "group": "Gallery",
+      "label": "Photo 2 \u2014 image description",
+      "selector": ".wall-photo:nth-of-type(2) img",
+      "kind": "alt",
+      "max": 200
+    },
+    {
+      "id": "gallery_2_caption",
+      "group": "Gallery",
+      "label": "Photo 2 caption",
+      "selector": ".wall-photo:nth-of-type(2) span",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "gallery_3_photo",
+      "group": "Gallery",
+      "label": "Photo 3",
+      "selector": ".wall-photo:nth-of-type(3) img",
+      "kind": "image",
+      "max": 1600
+    },
+    {
+      "id": "gallery_3_photo_alt",
+      "group": "Gallery",
+      "label": "Photo 3 \u2014 image description",
+      "selector": ".wall-photo:nth-of-type(3) img",
+      "kind": "alt",
+      "max": 200
+    },
+    {
+      "id": "gallery_3_caption",
+      "group": "Gallery",
+      "label": "Photo 3 caption",
+      "selector": ".wall-photo:nth-of-type(3) span",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "gallery_4_photo",
+      "group": "Gallery",
+      "label": "Photo 4",
+      "selector": ".wall-photo:nth-of-type(4) img",
+      "kind": "image",
+      "max": 1600
+    },
+    {
+      "id": "gallery_4_photo_alt",
+      "group": "Gallery",
+      "label": "Photo 4 \u2014 image description",
+      "selector": ".wall-photo:nth-of-type(4) img",
+      "kind": "alt",
+      "max": 200
+    },
+    {
+      "id": "gallery_4_caption",
+      "group": "Gallery",
+      "label": "Photo 4 caption",
+      "selector": ".wall-photo:nth-of-type(4) span",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "gallery_5_photo",
+      "group": "Gallery",
+      "label": "Photo 5",
+      "selector": ".wall-photo:nth-of-type(5) img",
+      "kind": "image",
+      "max": 1600
+    },
+    {
+      "id": "gallery_5_photo_alt",
+      "group": "Gallery",
+      "label": "Photo 5 \u2014 image description",
+      "selector": ".wall-photo:nth-of-type(5) img",
+      "kind": "alt",
+      "max": 200
+    },
+    {
+      "id": "gallery_5_caption",
+      "group": "Gallery",
+      "label": "Photo 5 caption",
+      "selector": ".wall-photo:nth-of-type(5) span",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "gallery_6_photo",
+      "group": "Gallery",
+      "label": "Photo 6",
+      "selector": ".wall-photo:nth-of-type(6) img",
+      "kind": "image",
+      "max": 1600
+    },
+    {
+      "id": "gallery_6_photo_alt",
+      "group": "Gallery",
+      "label": "Photo 6 \u2014 image description",
+      "selector": ".wall-photo:nth-of-type(6) img",
+      "kind": "alt",
+      "max": 200
+    },
+    {
+      "id": "gallery_6_caption",
+      "group": "Gallery",
+      "label": "Photo 6 caption",
+      "selector": ".wall-photo:nth-of-type(6) span",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "gallery_7_photo",
+      "group": "Gallery",
+      "label": "Photo 7",
+      "selector": ".wall-photo:nth-of-type(7) img",
+      "kind": "image",
+      "max": 1600
+    },
+    {
+      "id": "gallery_7_photo_alt",
+      "group": "Gallery",
+      "label": "Photo 7 \u2014 image description",
+      "selector": ".wall-photo:nth-of-type(7) img",
+      "kind": "alt",
+      "max": 200
+    },
+    {
+      "id": "gallery_7_caption",
+      "group": "Gallery",
+      "label": "Photo 7 caption",
+      "selector": ".wall-photo:nth-of-type(7) span",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "gallery_8_photo",
+      "group": "Gallery",
+      "label": "Photo 8",
+      "selector": ".wall-photo:nth-of-type(8) img",
+      "kind": "image",
+      "max": 1600
+    },
+    {
+      "id": "gallery_8_photo_alt",
+      "group": "Gallery",
+      "label": "Photo 8 \u2014 image description",
+      "selector": ".wall-photo:nth-of-type(8) img",
+      "kind": "alt",
+      "max": 200
+    },
+    {
+      "id": "gallery_8_caption",
+      "group": "Gallery",
+      "label": "Photo 8 caption",
+      "selector": ".wall-photo:nth-of-type(8) span",
+      "kind": "text",
+      "max": 100
+    },
+    {
+      "id": "visit_intro",
+      "group": "Contact",
+      "label": "Before a first visit",
+      "selector": ".contact-copy p:nth-of-type(2)",
+      "kind": "text",
+      "max": 1600
+    }
+  ],
+  "assets": [
+    {
+      "src": "./assets/after-fight.webp",
+      "label": "After Fight"
+    },
+    {
+      "src": "./assets/archive-2013.webp",
+      "label": "Archive 2013"
+    },
+    {
+      "src": "./assets/archive-sparring-one.webp",
+      "label": "Archive Sparring One"
+    },
+    {
+      "src": "./assets/archive-sparring-two.webp",
+      "label": "Archive Sparring Two"
+    },
+    {
+      "src": "./assets/cage-corner.webp",
+      "label": "Cage Corner"
+    },
+    {
+      "src": "./assets/cage-portrait.webp",
+      "label": "Cage Portrait"
+    },
+    {
+      "src": "./assets/event-team.webp",
+      "label": "Event Team"
+    },
+    {
+      "src": "./assets/grappling-showcase.webp",
+      "label": "Grappling Showcase"
+    },
+    {
+      "src": "./assets/live-show.webp",
+      "label": "Live Show"
+    },
+    {
+      "src": "./assets/original-crest-source.jpg",
+      "label": "Original Crest Source"
+    },
+    {
+      "src": "./assets/pack.webp",
+      "label": "Pack"
+    },
+    {
+      "src": "./assets/september-intro-course.jpg",
+      "label": "September Intro Course"
+    },
+    {
+      "src": "./assets/strange-wolves-logo.jpg",
+      "label": "Strange Wolves Logo"
+    },
+    {
+      "src": "./assets/strange-wolves-podcast.webp",
+      "label": "Strange Wolves Podcast"
+    },
+    {
+      "src": "./assets/training-grappling.webp",
+      "label": "Training Grappling"
+    },
+    {
+      "src": "./assets/training-striking.webp",
+      "label": "Training Striking"
+    },
+    {
+      "src": "./assets/training-wrestling.webp",
+      "label": "Training Wrestling"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "api": "https://rg7h6x66t9.execute-api.eu-west-1.amazonaws.com",
+  "apiId": "rg7h6x66t9",
+  "authDomain": "https://strangewolves-editor-544795558099.auth.eu-west-1.amazoncognito.com",
+  "clientId": "6tohscduf83op0i7oaa1a2mj7b",
+  "poolId": "eu-west-1_hYIEKgCNB",
+  "privateBucket": "strangewolves-editor-544795558099",
+  "publicBucket": "strangewolves-ie-site-544795558099",
+  "redirectUri": "https://d2roxk7zsux5nf.cloudfront.net/admin/index.html",
+  "roleArn": "arn:aws:iam::544795558099:role/StrangeWolvesEditorLambda"
+}
